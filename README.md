@@ -125,7 +125,54 @@ Movie Explorer/
 
 ---
 
+## Deployment on Vercel
+
+This project is optimized for deployment on [Vercel](https://vercel.com/):
+
+1. Push your code to a GitHub repository.
+2. In the Vercel dashboard, click **"Add New..."** → **"Project"**.
+3. Import your repository (Vite build settings and [vercel.json](file:///f:/Movie%20Explorer/vercel.json) rewrites are automatically configured).
+4. Click **Deploy**.
+
+---
+
+## 🔮 Future Improvements & Roadmap
+
+Here are planned features and potential enhancements for upcoming iterations:
+
+- **🔐 User Authentication & Cloud Sync**:
+  - Implement Firebase / Supabase authentication (Google, GitHub, Email).
+  - Cloud database synchronization so user watchlists and history sync across multiple devices.
+
+- **⭐ Custom Ratings & Personal Reviews**:
+  - Allow users to log personal 1–10 star ratings and private reviews/notes for watched movies.
+  - Track viewing dates and re-watch counts in a personal viewing diary.
+
+- **🎬 Trailer Playback & Video Embeds**:
+  - Integrate YouTube trailers directly within the movie details modal for instant previews.
+
+- **📺 Streaming Provider Availability**:
+  - Integrate JustWatch / TMDB API to display where a show is currently streaming (Netflix, Disney+, Prime Video, HBO Max, etc.).
+
+- **🤖 AI-Powered Movie Recommendations**:
+  - Provide intelligent, personalized recommendations based on the genres and titles in the user's *Already Seen* list.
+
+- **📂 Custom Playlists & Sharable Collections**:
+  - Allow users to organize movies into custom collections (e.g., *"Weekend Movie Marathon"*, *"Halloween Horror Favorites"*).
+  - Generate shareable public links to send curated lists to friends.
+
+- **📤 Data Export & Import**:
+  - Export personal library to CSV / JSON format for backups.
+  - Import watchlist and history from external platforms such as Letterboxd or IMDb.
+
+- **📱 Progressive Web App (PWA) & Offline Mode**:
+  - Add service worker caching to allow offline browsing of saved library collections.
+  - Enable "Install App" prompt on mobile and desktop devices.
+
+---
+
 ## Acknowledgments & Data
 
 - Show and movie data provided by the free, public [TVMaze API](https://www.tvmaze.com/api).
 - Icon designs inspired by [Flaticon](https://www.flaticon.com/) lineal vector guidelines.
+
